@@ -1,14 +1,10 @@
-package com.atguigu.springcloud.controller;
+package com.atguiguspringcloud.springcloud.controller;
 
-import com.atguigu.springcloud.entities.CommonResult;
-import com.atguigu.springcloud.entities.Payment;
-import com.atguigu.springcloud.service.PaymentService;
+import com.atguiguspringcloud.springcloud.entities.CommonResult;
+import com.atguiguspringcloud.springcloud.entities.Payment;
+import com.atguiguspringcloud.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.annotations.Param;
-import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
-import sun.misc.Contended;
 
 import javax.annotation.Resource;
 
