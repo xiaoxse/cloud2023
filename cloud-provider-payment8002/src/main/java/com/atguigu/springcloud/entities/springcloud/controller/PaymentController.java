@@ -33,7 +33,7 @@ public class PaymentController {
 
         if (result > 0) {
 
-            return new CommonResult(200, "插入数据库成功serverPort"+serverPort, result);
+            return new CommonResult(200, "插入数据库成功 serverPort"+serverPort, result);
         } else {
             return new CommonResult(444, "插入数据库失败", result);
         }
