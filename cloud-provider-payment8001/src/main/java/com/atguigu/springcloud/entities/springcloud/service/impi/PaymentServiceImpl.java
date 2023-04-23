@@ -1,11 +1,9 @@
-package com.atguigu.springcloud.service.impi;
+package com.atguigu.springcloud.entities.springcloud.service.impi;
 
-import com.atguigu.springcloud.dao.PaymentDao;
 import com.atguigu.springcloud.entities.Payment;
-import com.atguigu.springcloud.service.PaymentService;
-import org.apache.ibatis.annotations.Param;
+import com.atguigu.springcloud.entities.springcloud.dao.PaymentDao;
+import com.atguigu.springcloud.entities.springcloud.service.PaymentService;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.annotation.Resource;
 
